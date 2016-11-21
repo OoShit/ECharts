@@ -1,0 +1,297 @@
+	
+
+@font-face {
+	font-family: 'renren';
+	src: url('../fonts/MiFie-Web-Font.eot?6cyhth');
+	src: url('../fonts/MiFie-Web-Font.eot?6cyhth#iefix') format('embedded-opentype'), url('../fonts/MiFie-Web-Font.svg?6cyhth#MiFie-Web-Font') format('svg'), url('../fonts/MiFie-Web-Font.ttf?6cyhth') format('truetype'), url('../fonts/MiFie-Web-Font.woff?6cyhth') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  font-family: 'renren' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 这是头部区域 */
+.nav{
+	width: 100%;
+	height: 50px;
+	background: #0099CC;
+	padding:0;
+	margin:0;
+}
+
+@media (max-width: 1005px){
+	.nav{
+		width:990px;
+	}
+	.righterson{
+		width: 990px;
+	}
+}
+
+.box1{
+	height:50px;
+	top:0;
+	left: 0;
+	float: left;
+	padding:0;
+	margin:0;
+}
+.box2{
+	float: right;
+	top:0;
+	left: 0;
+}
+.nav a{
+	height:50px;
+	line-height: 50px;
+	color: #f1f1f1;
+	padding:0 20px;
+	text-decoration: none;
+	display: inline-block;
+	float: left;
+	font-size: 14px;
+	font-family: "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", STHeiti, "Microsoft YaHei";
+}
+.nav a:hover{
+	background: #008FBF;
+}
+.nav .box1 a:nth-child(1){
+	display: inline-block;
+	padding:0;
+	width: 50px;
+	height:50px;
+	background: url(../img/pic1.png) no-repeat 0 center;
+}
+.nav .box1 a:nth-child(2){
+	border-right: 1px solid #008FBF;
+}
+.nav .box2 a{
+	padding: 0 12px;
+	border-left: 1px solid #008FBF;
+}
+.icon-mobilephone::before{
+	content: "\e908";
+}
+.nav i{
+	font-size: 15px;
+	padding-right: 5px;
+	vertical-align: middle;
+}
+.nav strong{
+	display: inline-block;
+	width: 16px;
+	height: 20px;
+	background: orange;
+	font-size: 14px;
+	color: #f1f1f1;
+	border-radius:4px;
+	vertical-align: middle;
+	line-height: 22px;
+	text-align: center;
+	margin-left: 5px;
+	font-weight: normal;
+}
+.nav span{
+	display: inline-block;
+	border-top: 5px solid #f1f1f1;
+	border-bottom:0;
+	border-left:5px solid #0099CC;
+	border-right:5px solid #0099CC;
+	margin-left: 4px;
+	vertical-align: middle;
+}
+
+/* 内容区 */
+.content{
+	font-size:0;
+	height:1000px;
+}
+.content .lefter{
+	display: inline-block;
+	width:180px;
+	background: #293038;
+	overflow:hidden;
+}
+.content .center{
+	width:180px;
+	background: #EAEDF1;
+}
+.content .lefter ul{
+	list-style: none;
+	padding:0;
+	margin:0;
+}
+.content .lefter ul li{
+	width: 180px;
+	height: 40px;
+	line-height: 40px;
+	padding:0;
+	margin:0;
+}
+.lefter span,.lefter a{
+	font-family: "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", STHeiti, "Microsoft YaHei"; 
+	font-size: 12px;
+	display: inline-block;
+	margin:0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	color:#fff;
+}
+.lefter i{
+	color:#AEB9C2;
+	width:50px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 16px;
+}
+.content .lefter span i{
+	width: 50px;
+	height: 40px;
+	font-size: 12px;
+	transition:0.2s
+}
+.lefter a:hover{
+	text-decoration: none;
+	background: #37424F;
+}
+.lefter a:hover i{
+	color:#f3f3f3;
+}
+.lefter .navigation {
+	width: 180px;
+	height: 30px;
+	font-size: 12px;
+	letter-spacing: 2px;
+	background: #394555;
+	color: #cdcdcd;
+	text-align: center;
+	line-height: 30px;
+	-webkit-user-select:none;
+	cursor: pointer;
+}
+.lefter .navigation i{
+	widht:50px;
+	height:40px;
+	color:#f3f3f3;
+}
+.lefter .product span,.lefter .user span{
+	-webkit-user-select:none;
+	display: inline-block;
+	width: 180px;
+	height: 40px;
+	line-height: 40px;
+	background: #22282E;
+}
+.lefter span i:nth-child(2){
+	width: 40px;
+	height: 40px;
+	float: right;
+	color:#A0ABB3;
+	font-size: 13px;
+}
+.lefter span:hover{
+	background: #37424F;
+	cursor: pointer;
+}
+.lefter .product ul li:nth-child(1) a{
+	text-decoration: none;
+	background: #0099CC;
+}
+.lefter .product ul li:nth-child(1) a i{
+	color: #f3f3f3;
+}
+
+/* 主体右边的图表部分 */
+
+.righter{
+	display:inline-block;
+	vertical-align:top;
+	padding:20px;
+	overflow:auto;
+}
+.righterson{
+	position:relative;
+	width:100%;
+	height:50px;
+}
+.righter .top{
+	width:100%;
+	height:50px;
+	border:1px solid #ccc;
+	margin-bottom: 10px;
+	line-height: 50px;
+	padding-left: 10px;	
+}
+.righter .top p{
+	font-size: 14px;
+	color:#333;
+	font-weight: 400;
+}
+.righter .top div{
+	width:260px;
+	height:50px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.righter .top div a{
+	display: inline-block;
+	height: 34px;
+	padding: 0 12px;
+	font-size: 12px;
+	color:#666;
+	background: #F7F7F7;
+	text-align: center;
+	line-height: 34px;
+	margin:8px;
+	border-radius: 5px;
+	border:1px solid #999;
+	font-weight: 600;
+}
+.righter .top div a:hover{
+	background: #fff;
+	text-decoration: none;
+}
+.righter .top div a i{
+	vertical-align: middle;
+	margin-right: 6px;
+}
+
+/* tubiao */
+
+#mainfa,#realfa,#thisfa,#thatfa{
+	width: 50%;
+	height:350px;
+	display: inline-block;
+	padding: 10px;
+}
+#main,#real,#this,#that{
+	width: 100%;
+	height: 100%;
+	border:1px solid #ccc;
+}
+@media (max-width:780px){
+	#mainfa,#realfa,#thisfa,#thatfa{
+		display: block;
+		width: 100%;
+	}
+}
+@media (max-width:860px){
+	.righterson{
+		width:860px;
+		height:50px;
+	}
+}
